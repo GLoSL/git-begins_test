@@ -2,6 +2,7 @@ Pour cloner un repository distant :
 
 ->$git clone [ADRESSE]
 
+CONFLIT MAIN!
 
 Pour push sur le repository distant :
 
