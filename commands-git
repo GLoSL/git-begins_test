@@ -19,3 +19,16 @@ Pour pull depuis le repository distant :
 
 ->$git pull
 Par défaut, git pull est l’abréviation de git fetch suivi de git merge FETCH_HEAD (FETCH_HEAD récupère ce qui vient d'être récupéré depuis le repository avec la command fetch).
+
+
+Pour ajouter une branche :
+
+->$git branch [NOM BRANCHE]
+
+Pour se déplacer sur une autre branche :
+
+->$git checkout [NOM BRANCHE]
+
+Pour créer une nouvelle branche et se déplacer dessus :
+
+->$git checkout -b [NOM BRANCHE]
