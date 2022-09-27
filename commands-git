@@ -1,0 +1,15 @@
+Pour cloner un repository distant : 
+
+->$git clone [ADRESSE]
+
+
+Pour push sur le repository distant :
+
+->$git add [FICHIERS]
+pour ajouter les fichiers au commit
+
+->$git commit -am '[MESSAGE DESCRIPTIF]'
+-a pour mettre à jour les modifications et suppressions de fichiers, -m pour ajouter un message décrivant le commit
+
+->$git push origin [NOM BRANCHE]
+Envoyer les modifications de la branche demandée sur le repository distant
