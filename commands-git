@@ -13,3 +13,9 @@ pour ajouter les fichiers au commit
 
 ->$git push origin [NOM BRANCHE]
 Envoyer les modifications de la branche demandée sur le repository distant
+
+
+Pour pull depuis le repository distant :
+
+->$git pull
+Par défaut, git pull est l’abréviation de git fetch suivi de git merge FETCH_HEAD (FETCH_HEAD récupère ce qui vient d'être récupéré depuis le repository avec la command fetch).
